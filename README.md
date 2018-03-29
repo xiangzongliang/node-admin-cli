@@ -50,4 +50,5 @@ module.exports = demo;
 router.get('/demo', interfaces.demo);
 ```
 3.重启项目，在浏览器中访问`localhost:3456/demo`,就会出现我们所返回的JSON。
+
 4.启动端口默认为`3456`可以修改`config/index.js`文件来自定义配置
