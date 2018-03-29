@@ -1,0 +1,27 @@
+{
+  "name": "admin-cli",
+  "version": "1.0.0",
+  "description": "Backstage scaffolding based on node.js",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "lodash": "^4.17.5",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiangzongliang/node-admin-cli.git"
+  },
+  "author": "Xiang Zongliang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiangzongliang/node-admin-cli/issues"
+  },
+  "homepage": "https://github.com/xiangzongliang/node-admin-cli#readme"
+}
