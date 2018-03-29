@@ -15,7 +15,7 @@ app.use('/', router.init(EXProuter));
 app.use(express.static('/'));
 
 
-let PORT = config.port || 3000;
+let PORT = config.port || 3456;
 http.listen(PORT, function (e) {
 	console.log('The port of listening is :' + PORT);
 });
